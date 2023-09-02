@@ -1,0 +1,192 @@
+/*Style for Home*/
+*{
+    margin-left: 2%;
+    margin-top:2%;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items:center;
+}
+
+.col {
+    flex-basis: 50%;
+    display: inline-block;
+}
+
+h1 {
+    color: #FAF9F6;
+    font-size:70px;
+}
+
+p{
+    color:#FAF9F6;
+    font-size:18px;
+    line-height: 20px;
+}
+
+/*
+.card{
+    width: 225px;
+    height:225px;
+    display: inline-block;
+    border-radius:20px;
+    padding: 90px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 20px 20px 10px;
+    background-color: #FAF9F6;
+    transition: transform 0.5s;
+}
+*/
+/*
+h3{
+    text-align:center;
+    color: #476e52;
+    font-size:25px;
+}
+*/
+/*
+.card:hover{
+    transform:translateY(-10px);
+}
+*/
+
+/*Style for HOME BUTTON*/
+button{
+    width: 150px;
+    color:#476e52;
+    font-size:15px;
+    padding:12px 0;
+    background: #FAF9F6;
+    border: 0;
+    border-radius: 25px;
+    outline:none;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    font-weight:bold;
+}
+button:hover{
+    transform:translateY(-5px);
+}
+
+/*Style for INFO BUTTONS (COLOR, ALBUMS, BOOKS, MOVIES)*/
+.card-button{
+    width: 225px;
+    height:225px;
+    display: inline-block;
+    border-radius:20px;
+    padding: 90px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 20px 20px 10px;
+    background-color: #FAF9F6;
+    transition: transform 0.5s;
+
+    color:#476e52;
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.card-button:hover{
+    transform:translateY(-10px)
+}
+
+/*Style for Color*/
+.color-image{
+    height: 450px;
+    width:450px;
+    border-radius: 50px;
+    margin-left: 60%;
+}
+.color-caption{
+    font-size:18px;
+    color:#FAF9F6;
+    margin-left:62%;
+}
+/* .color-button{
+    width: 500px;
+    height:500px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: #FAF9F6;
+    border-radius: 50px;
+    background-color:pink;
+} */
+
+/* 
+h2{
+    color:#FAF9F6;
+} */
+
+
+/*Style for Albums*/
+.album-covers{
+    font-size:18px;
+    color:#FAF9F6;
+    
+}
+
+.album-image{
+    height: 450px;
+    width:450px;
+    border-width: 50px;
+    border-color: #FAF9F6;
+    border-radius: 50px;
+}
+
+/*Style for Books*/
+.book-covers{
+    font-size:18px;
+    color:#FAF9F6;
+    
+}
+
+.book-image{
+    height: 500px;
+    width:350px;
+    border-width: 50px;
+    border-color: #FAF9F6;
+    border-radius: 25px;
+}
+
+
+/*Style for Movies*/
+.movie-covers{
+    font-size:18px;
+    color:#FAF9F6;
+    
+}
+
+.movie-image{
+    height: 360px;
+    width:252px;
+    border-width: 50px;
+    border-color: #FAF9F6;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+/* Style for About */
+header{
+    color:#FAF9F6;
+    font-size: 70px;
+    text-align: center;
+
+    font-weight: bold;
+}
+.about-text{
+    color:#FAF9F6;
+    font-size: 20px;
+    text-align: center;
+}
+.about-text2{
+    color:#FAF9F6;
+    font-size: 20px;
+    text-align: center;
+}
